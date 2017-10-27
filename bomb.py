@@ -92,7 +92,7 @@ class bomb:
 
 	   
 
-		if Matrix[x3-1][y3]!="#" and Matrix[x3+2][y3]!="#" :
+		if Matrix[x3-1][y3]!="#" and Matrix[x3+2][y3]!="#" :  # checking that it is not a brick
 			
 			if Matrix[x5-2][y5]=='E':
 				flag=1
