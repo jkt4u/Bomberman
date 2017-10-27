@@ -10,7 +10,7 @@ class enemy:
         while y%4!=0:
             y=random.randint(4,76)
             
-        while(Matrix[x][y]=='#' or Matrix[x][y]=='/'):
+        while(Matrix[x][y]=='#' or Matrix[x][y]=='/'):            # checking if brick or not
             x=random.randint(4,39)
             while x%2!=0:
                 x=random.randint(4,39)
