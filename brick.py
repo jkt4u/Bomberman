@@ -1,5 +1,5 @@
 import random
-# bricks bricks bricks
+# madarchod
 class brick():                                                  
     def __init__(self,Matrix):                              #initialises object of class wall
         for k in range(10):
